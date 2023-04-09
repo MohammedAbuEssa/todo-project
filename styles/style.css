@@ -17,6 +17,7 @@ h1 {
     display: flex;
     justify-content: center;
     padding-top: 2%;
+    color: rgb(104, 34, 34);
 }
 
 .center-screen {
@@ -50,4 +51,71 @@ footer {
     background-color: gray;
     color: white;
     text-align: center;
+    margin-top: 15em;
+}
+
+
+.avatar {
+    margin-top: 3em;
+    border-radius: 50%;
+    height: 10em;
+}
+
+.About-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p {
+    margin: 2em;
+    font-size: 1.5em;
+}
+
+
+label {
+    color: brown;
+
+}
+
+input {
+    margin: 0.2em;
+}
+
+
+input[type=text],
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    background-color: #7f3118;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #7f3118;
+}
+
+.form-order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
