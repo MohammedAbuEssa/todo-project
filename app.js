@@ -25,9 +25,9 @@ if (welcomeMessage===false) {
 
 
 
-let somkingUser=confirm("Do you smoke?");
-let jordanianUser=confirm("Are you a jordanian citizen?");
-let study=confirm("Have you studied at the university?");
+let somkingUser=prompt("Do you smoke?");
+let jordanianUser=prompt("Are you a jordanian citizen?");
+let study=prompt("Have you studied at the university?");
 
 const threeQuestions=[];
 
@@ -35,4 +35,15 @@ threeQuestions.push(somkingUser);
 threeQuestions.push(jordanianUser);
 threeQuestions.push(study);
 
-console.log(threeQuestions);
+for (let index = 0; index < threeQuestions.length; index++) {
+    
+    if (threeQuestions[index]=="") {
+        console.log("invalid");
+
+    }
+    else{
+        console.log(threeQuestions[index]);
+    }
+    
+}
+
